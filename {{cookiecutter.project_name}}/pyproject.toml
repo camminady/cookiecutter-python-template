@@ -1,0 +1,55 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+
+[tool.poetry]
+name = "{{ cookiecutter.project_name }}"
+description = "{{ cookiecutter.project_description }}"
+version = "0.1.0"
+license = "{{ cookiecutter.license|upper }}"
+
+authors = []
+
+readme = "README.md"
+
+repository = "https://github.com/{{ cookiecutter.organization }}/{{ cookiecutter.project_name }}"
+
+keywords = []
+
+
+
+
+[tool.poetry.dependencies]
+python = ">=3.9, <3.11"
+
+# Docs, optional, use `poetry install -E docs` to install them:
+sphinx = { version = "^4.5", optional = true }
+sphinx-autodoc-typehints = { version = "^1.18", optional = true }
+m2r2 = { version = "^0.3", optional = true }
+tomlkit = { version = "^0.10", optional = true }
+
+rich = "^12.2.0"
+# matplotlib = "^3.5.1"
+# numpy = "^1.22.3"
+# pandas = "^1.4.2"
+
+
+[tool.poetry.dev-dependencies]
+doc8 = "^0.11"
+mypy = "^0.942"
+#nitpick = "^0.32"
+safety = "^1.10"
+pytest = "^7.1"
+pytest-cov = "^3.0"
+pytest-randomly = "^3.11"
+black = "^22.3.0"
+#importlib-metadata = "^4.11.3"
+#cffi = "^1.15.0"
+#pls = "^4.0.2"
+ipykernel = { version = "^6.13.0", optional = true }
+
+[tool.poetry.extras]
+docs = ["sphinx", "sphinx-autodoc-typehints", "m2r2", "tomlkit"]
+interactive = ["ipykernel"]
