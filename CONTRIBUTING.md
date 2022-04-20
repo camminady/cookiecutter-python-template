@@ -35,7 +35,7 @@ We use `mypy` to run type checks on our code.
 To use it:
 
 ```bash
-mypy cookiecutter_python_package_template tests/**/*.py
+mypy {{ cookiecutter.project_name.lower().replace('-', '_') }} tests/**/*.py
 ```
 
 This step is mandatory during the CI.
