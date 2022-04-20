@@ -2,7 +2,7 @@ SHELL:=/usr/bin/env bash
 
 .PHONY: lint
 lint:
-	poetry run mypy {{ cookiecutter.project_name.lower().replace('-', '_') }} tests/*.py
+	poetry run mypy cookiecutter_python_package_template  tests/*.py
 	poetry run black .
 	poetry run doc8 -q docs
 
@@ -36,7 +36,7 @@ install:
 .PHONY: gitsetup
 gitsetup:
 	git init
-	git remote add origin git@github.com:{{ cookiecutter.organization }}/{{ cookiecutter.project_name.lower().replace('-', '_') }}.git
+	git remote add origin git@github.com:camminady/cookiecutter_python_package_template.git
 	git branch -M main
 
 .PHONY: gitfirst
