@@ -1,0 +1,42 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+
+[tool.poetry]
+name = "cookiecutter-python-package-template"
+description = "A cookiecutter template for Python packages."
+version = "0.1.0"
+license = "MIT"
+
+authors = []
+
+readme = "README.md"
+
+repository = "https://github.com/camminady/cookiecutter-python-package-template"
+
+keywords = []
+
+
+
+
+[tool.poetry.dependencies]
+python = ">=3.9, <3.11"
+sphinx = "^4.5"
+sphinx-autodoc-typehints = "^1.18"
+m2r2 = "^0.3"
+tomlkit = "^0.10"
+rich = "^12.2.0"
+cookiecutter = "^1.7"
+jinja2-git = "^1.1"
+lice = "^0.6"
+binaryornot = "^0.4"
+doc8 = "^0.11"
+mypy = "^0.942"
+nitpick = "^0.32"
+safety = "^1.10"
+pytest = "^7.1"
+pytest-cov = "^3.0"
+pytest-randomly = "^3.11"
+black = "^22.3.0"
