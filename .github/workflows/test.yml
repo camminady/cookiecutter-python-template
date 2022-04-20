@@ -1,4 +1,4 @@
-{% raw %}name: test
+name: test
 
 on:
   push:
