@@ -2,7 +2,7 @@ SHELL:=/usr/bin/env bash
 
 .PHONY: lint
 lint:
-	poetry run mypy cookiecutter_python_package_template  tests/*.py
+	poetry run mypy tests/*.py
 	poetry run black .
 	poetry run doc8 -q docs
 
