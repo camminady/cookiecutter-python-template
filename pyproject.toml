@@ -6,7 +6,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "cookiecutter_python_package_template"
-description = "cookiecutter python ntemplate"
+description = "cookiecutter python package template"
 version = "0.1.0"
 license = "MIT"
 
