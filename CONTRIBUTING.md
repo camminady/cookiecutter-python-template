@@ -49,12 +49,6 @@ curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poet
 ```
 
 
-## Getting the repo
-```
-git clone git@github.com:camminady/my-awesome-project.git
-cd my-awesome-project
-make install
-```
 
 
 ## Installing and updating dependencies 
