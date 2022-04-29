@@ -26,6 +26,16 @@ tiger = Animal("Tiger", "roooar")
 tiger.speak()
 # => 'The Tiger says roooar.'
 ```
+## How to add this package to some other codebase
+When using `zsh`, run
+
+```poetry add git+ssh://git@github.com/{{ cookiecutter.organization }}/{{ cookiecutter.project_name }}.git\#main```
+
+With `fish`, run
+
+```poetry add git+ssh://git@github.com/{{ cookiecutter.organization }}/{{ cookiecutter.project_name }}.git#main```
+
+
 
 ## Contributing
 
