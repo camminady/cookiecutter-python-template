@@ -16,6 +16,8 @@ pip install lice
 
 ## How to include other private repos
 When using `zsh`, run
+
 ```poetry add git+ssh://git@github.com/WahooFitness/ds-pathfinder.git\#main```
 With `fish`, run
+
 ```poetry add git+ssh://git@github.com/WahooFitness/ds-pathfinder.git#main```
