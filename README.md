@@ -13,3 +13,5 @@ pip install lice
 ## Create new project
 ```cookiecutter https://github.com/WahooFitness/cookiecutter_python_package_template```
 
+## Typing
+We are using `mypy` which enforces rather strict typing.
