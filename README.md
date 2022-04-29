@@ -18,6 +18,7 @@ pip install lice
 When using `zsh`, run
 
 ```poetry add git+ssh://git@github.com/WahooFitness/ds-pathfinder.git\#main```
+
 With `fish`, run
 
 ```poetry add git+ssh://git@github.com/WahooFitness/ds-pathfinder.git#main```
