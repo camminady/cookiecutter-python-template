@@ -51,8 +51,8 @@ curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poet
 
 ## Getting the repo
 ```
-git clone git@github.com:camminady/my-awesome-project.git
-cd my-awesome-project
+git clone git@github.com:{{ cookiecutter.organization }}/{{ cookiecutter.project_name }}.git
+cd {{ cookiecutter.project_name }}
 make install
 ```
 
@@ -64,9 +64,7 @@ poetry add somepackage
 poetry lock
 ```
 
-## Documentation
-Update the [documentation](https://htmlpreview.github.io/?https://github.com/camminady/my-awesome-project/blob/main/docs/_build/html/index.html) by running
+If you want to use and develop this package, it might be handy to install it _editable_:
 ```bash
-cd doc
-make html
+pip install -e .
 ```
