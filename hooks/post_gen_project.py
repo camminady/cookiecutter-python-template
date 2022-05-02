@@ -9,31 +9,14 @@ https://github.com/pydanny/cookiecutter-django
 """
 
 import os
-import sys
-import textwrap
+
 
 # Get the root project directory:
 PROJECT_DIRECTORY = os.path.realpath(os.path.curdir)
-PROJECT_NAME = '{{ cookiecutter.project_name }}'
+PROJECT_NAME = "{{ cookiecutter.project_name }}"
 
 # We need these values to generate correct license:
-LICENSE = '{{ cookiecutter.license }}'
-ORGANIZATION = '{{ cookiecutter.organization }}'
-
-
-def generate_license():
-    """Generates license file for the project."""
-    license_result = os.system(  # noqa: S605
-        'lice {0} -o {1} -p {2} > {3}/LICENSE'.format(
-            LICENSE.lower(),
-            ORGANIZATION,
-            PROJECT_NAME,
-            PROJECT_DIRECTORY,
-        ),
-    )
-    if license_result:  # it means that return code is not 0, print exception
-        print(license_result)  # noqa: WPS421
-        sys.exit(1)
+ORGANIZATION = "{{ cookiecutter.organization }}"
 
 
 def print_futher_instuctions():
@@ -62,5 +45,4 @@ def print_futher_instuctions():
     print(message)  # noqa: WPS421
 
 
-generate_license()
 print_futher_instuctions()
