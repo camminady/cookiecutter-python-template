@@ -46,8 +46,9 @@ def print_futher_instuctions():
     #   just run:                                                                                                                                                          
                       
      cd {PROJECT_NAME}
-     git  init 
+     poetry config --local virtualenvs.in-project true
      poetry install
+     git  init 
      make gitsetup
      make gitfirst
     
