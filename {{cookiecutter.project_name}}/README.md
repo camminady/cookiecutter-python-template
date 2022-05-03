@@ -51,9 +51,8 @@ poetry add matplotlib
 
 ## Links
 
-[License](https://github.com/{{ cookiecutter.organization }}/{{ cookiecutter.project_name }}/blob/main/LICENSE)
+[Python Coding Guidelines](https://wahooligans.atlassian.net/wiki/spaces/SCIENCE/pages/23586078720/Python+Coding+Guidelines)
 
 [Documentation](https://htmlpreview.github.io/?https://github.com/{{ cookiecutter.organization }}/{{ cookiecutter.project_name }}/blob/main/docs/_build/html/index.html)
 
-[Python Coding Guidelines](https://wahooligans.atlassian.net/wiki/spaces/SCIENCE/pages/23586078720/Python+Coding+Guidelines)
 
