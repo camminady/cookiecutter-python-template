@@ -44,7 +44,10 @@ poetry install
 poetry shell
 ```
 This will install all required packages and activate the correct environment.
-
+Add packages via 
+```
+poetry add matplotlib
+```
 
 ## Links
 
