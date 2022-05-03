@@ -4,7 +4,7 @@
 
 ## Install requirements
 You need to
-```
+```shell
 pip install cookiecutter  
 pip install jinja2_git
 pip install lice
@@ -15,12 +15,13 @@ Alternatively, use `pip3` instead of `pip`.
 
 ## Create new project
 Run
-
-```cookiecutter https://github.com/WahooFitness/dspkg-cookiecutter-python-template```
+```shell
+cookiecutter https://github.com/WahooFitness/dspkg-cookiecutter-python-template
+```
 
 ## Adding packages 
 If your environment needs to use packages like `numpy`, just run
-```
+```shell
 poetry add numpy
 ```
 ## Typing
