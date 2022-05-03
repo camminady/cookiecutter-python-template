@@ -8,6 +8,7 @@ You need to
 pip install cookiecutter  
 pip install jinja2_git
 pip install lice
+pip install markupsafe
 ```
 Alternatively, use `pip3` instead of `pip`.
 
