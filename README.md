@@ -16,5 +16,11 @@ Alternatively, use `pip3` instead of `pip`.
 ## Create new project
 Run
 ```cookiecutter https://github.com/WahooFitness/dspkg-cookiecutter-python-template```
+
+## Adding packages 
+If your environment needs to use packages like `numpy`, just run
+```
+poetry add numpy
+```
 ## Typing
 We are using `mypy` which enforces rather strict typing.
