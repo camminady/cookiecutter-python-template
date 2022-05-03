@@ -15,6 +15,7 @@ Alternatively, use `pip3` instead of `pip`.
 
 ## Create new project
 Run
+
 ```cookiecutter https://github.com/WahooFitness/dspkg-cookiecutter-python-template```
 
 ## Adding packages 
