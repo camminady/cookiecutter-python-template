@@ -37,10 +37,10 @@ def print_futher_instuctions():
     #                                                                                     #
     #                                                                                     #
     #    Your project {PROJECT_NAME} is created.                                          #
-    #    Create an empty repository at: git@github.com:{ORGANIZATION}/{PROJECT_NAME}.git  #
+    #    Create an empty repository at:                                                   #
+    #    git@github.com:{ORGANIZATION}/{PROJECT_NAME}.git                                 
     #                                                                                     #
-    #    To install all packages, initializes git, add all files,                         #
-    #    and push to git@github.com:{ORGANIZATION}/{PROJECT_NAME}.git,                    #
+    #    To install all packages, initializes git, add all files, and push,               #
     #    just run:                                                                        #
     #                                                                                     #
     #                                                                                     #
