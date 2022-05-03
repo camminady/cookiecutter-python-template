@@ -19,7 +19,7 @@ Run
 ```shell
 cookiecutter https://github.com/WahooFitness/dspkg-cookiecutter-python-template
 ```
-
+You will then be asked to enter the package name and the organization under which the Github repository will live (`WahooFitness` is the default).
 ## Adding packages 
 If your environment needs to use packages like `numpy`, just run
 ```shell
