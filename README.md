@@ -9,6 +9,7 @@ pip install cookiecutter
 pip install jinja2_git
 pip install lice
 pip install markupsafe==2.0.1
+pip install poetry 
 ```
 Alternatively, use `pip3` instead of `pip`.
 
