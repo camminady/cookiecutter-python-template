@@ -35,6 +35,7 @@ install:
 
 .PHONY: gitsetup
 gitsetup:
+	git config --global init.defaultBranch main
 	git init
 	git remote add origin git@github.com:{{ cookiecutter.organization }}/{{ cookiecutter.project_name.lower()}}.git
 	git branch -M main
@@ -42,7 +43,15 @@ gitsetup:
 .PHONY: gitfirst
 gitfirst:
 	git add .
-	git add .github
-	git add .editorconfig .gitignore .readthedocs.yml
+	git add .editorconfig .gitignore .readthedocs.yml .github
 	git commit -am "Initial commit, adding all files."
 	git push -u origin main
+	
+
+.PHONY: all
+all:
+	poetry config --local virtualenvs.in-project true
+	poetry install
+	make gitsetup
+	make gitfirst
+
