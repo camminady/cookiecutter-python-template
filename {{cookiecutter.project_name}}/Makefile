@@ -22,7 +22,7 @@ test: lint package unit
 
 .PHONY: clean
 clean: 
-	rm -rf tests/__pycache__ .pytest_cache .mypy_cache my_awesome_project/__pycache__ .coverage dev/__pycache__ dev/notebooks/__pycache__
+	rm -rf tests/__pycache__ .pytest_cache .mypy_cache {{ cookiecutter.project_name.lower().replace('-', '_') }}/__pycache__ .coverage dev/__pycache__ dev/notebooks/__pycache__
 
 
 .PHONY: install
