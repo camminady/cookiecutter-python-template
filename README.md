@@ -5,10 +5,11 @@
 ## Install requirements
 You need to
 ```
-pip install cookiecutter 
+pip install cookiecutter  
 pip install jinja2_git
 pip install lice
 ```
+Alternatively, use `pip3` instead of `pip`.
 
 ## Create new project
 ```cookiecutter https://github.com/WahooFitness/dspkg-cookiecutter-python-template```
