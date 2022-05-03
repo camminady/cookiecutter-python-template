@@ -6,14 +6,15 @@
 {{ cookiecutter.project_description }}
 
 
+## How to install this package in another `dspkg-package` 
+When using `zsh`, run
 
+```poetry add git+ssh://git@github.com/{{ cookiecutter.organization }}/{{ cookiecutter.project_name }}.git\#main```
 
+With `fish`, run
 
-## Installation
+```poetry add git+ssh://git@github.com/{{ cookiecutter.organization }}/{{ cookiecutter.project_name }}.git#main```
 
-```bash
-pip install git+https://github.com/{{ cookiecutter.organization }}/{{ cookiecutter.project_name }}.git
-```
 
 
 ## Example
@@ -25,14 +26,6 @@ tiger = Animal("Tiger", "roooar")
 tiger.speak()
 # => 'The Tiger says roooar.'
 ```
-## How to add this package to some other codebase
-When using `zsh`, run
-
-```poetry add git+ssh://git@github.com/{{ cookiecutter.organization }}/{{ cookiecutter.project_name }}.git\#main```
-
-With `fish`, run
-
-```poetry add git+ssh://git@github.com/{{ cookiecutter.organization }}/{{ cookiecutter.project_name }}.git#main```
 
 
 
