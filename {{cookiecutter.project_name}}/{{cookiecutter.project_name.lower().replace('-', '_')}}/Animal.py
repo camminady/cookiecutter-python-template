@@ -1,9 +1,19 @@
 from .helper import make_sound
 
 
-class Animal:
+class Being:
+    """This is a class representing something that has a name."""
+
+    def __init__(self, name):
+        self.name = name
+
+    def __str__(self):
+        return self.name
+
+
+class Animal(Being):
     def __init__(self, name: str, sound: str):
-        self.name: str = name
+        super.__init__(name)
         self.sound: str = sound
 
     def speak(self) -> str:
