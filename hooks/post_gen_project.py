@@ -22,25 +22,23 @@ ORGANIZATION = "{{ cookiecutter.organization }}"
 def print_futher_instuctions():
     """Shows user what to do next after project creation."""
     message = f"""
+    
     Your project {PROJECT_NAME} is created.
-    Now you can start working on it:
+    Create an empty repository at: git@github.com:{ORGANIZATION}/{PROJECT_NAME}.git
+    
+    To install all packages, initializes git, add all files, 
+    and push to git@github.com:{ORGANIZATION}/{PROJECT_NAME}.git, 
+    just run:
+
 
         cd {PROJECT_NAME}
-    
-    Useful steps that might follow:
-    
         git  init 
         poetry install
         poetry shell
-        
-    If you have created an empty repository at git@github.com:{ORGANIZATION}/{PROJECT_NAME}.git you can run:
-    
         make gitsetup
         make gitfirst
         
-    This adds all files and pushes to the repository.
-    
-    Good luck hacking! 
+   
     """
     print(message)  # noqa: WPS421
 
