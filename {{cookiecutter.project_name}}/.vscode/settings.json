@@ -1,0 +1,102 @@
+{
+    "files.associations": {
+    "formatOnSave": "true",
+    "*.py": "python"
+  },
+  "files.exclude": {
+    "**/__pycache__": false,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "atomKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "workbench.iconTheme": "material-icon-theme",
+  "debug.terminal.clearBeforeReusing": true,
+  "git.autofetch": true,
+  "editor.fontLigatures": true,
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "editor.rulers": [79],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "autoDocstring.docstringFormat": "numpy",
+  "editor.formatOnSave": true,
+  "yaml.format.singleQuote": true,
+  "python.formatting.provider": "black",
+  "python.formatting.autopep8Path": "/Applications/anaconda3/bin/autopep8",
+  "python.formatting.blackPath": "/Applications/anaconda3/bin/black",
+  "python.languageServer": "Pylance",
+  "python.analysis.diagnosticMode": "workspace",
+  "python.linting.mypyEnabled": true,
+  "python.linting.mypyPath": ".venv/bin/mypy",
+  "editor.tokenColorCustomizations": {
+    "[Night Owl]": {
+      "comments": "#545454",
+      "textMateRules": [
+        {
+          "scope": [
+            "string.quoted.docstring.multi.python",
+            "string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
+            "string.quoted.docstring.multi.python punctuation.definition.string.end.python"
+          ],
+          "settings": {
+            "foreground": "#545454"
+          }
+        },
+
+        {
+          "scope": [
+            "string.quoted.single.python",
+            "punctuation.definition.string.begin.python",
+            "punctuation.definition.string.end.python",
+            "string.quoted.multi.python"
+          ],
+          "settings": {
+            "foreground": "#4e9e72"
+          }
+        },
+        {
+          "scope": [
+            "constant.numeric.dec.python",
+            "constant.numeric.float.python"
+          ],
+          "settings": {
+            "foreground": "#dba124"
+          }
+        },
+        {
+          "scope": [
+            "meta.function-call.generic.python",
+            "meta.function-call.python"
+          ],
+          "settings": {
+            "foreground": "#d872be"
+          }
+        },
+        {
+          "scope": [
+            "variable.parameter.function-call.python",
+            "meta.function-call.arguments.python"
+          ],
+          "settings": {
+            "foreground": "#b3aefc"
+          }
+        },
+        {
+          "scope": ["punctuation.separator.period.python"],
+          "settings": {
+            "foreground": "#c8ebc3"
+          }
+        }
+      ]
+    }
+  }
+}
