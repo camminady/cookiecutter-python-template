@@ -1,20 +1,24 @@
 SHELL:=/usr/bin/env bash
 
+
 .PHONY: lint
 lint:
 	poetry run mypy {{ cookiecutter.project_name.lower().replace('-', '_') }} tests/*.py
 	poetry run black .
 	poetry run doc8 -q docs
 
+
 .PHONY: unit
 unit:
 	poetry run pytest --ignore=dev/
+
 
 .PHONY: package
 package:
 	poetry check
 	poetry run pip check
 	poetry run safety check --full-report
+
 
 .PHONY: test
 test: lint package unit
@@ -31,14 +35,13 @@ install:
 	poetry install
 
 
-
-
 .PHONY: gitsetup
 gitsetup:
 	git config --global init.defaultBranch main
 	git init
 	git remote add origin git@github.com:{{ cookiecutter.organization }}/{{ cookiecutter.project_name.lower()}}.git
 	git branch -M main
+
 
 .PHONY: gitfirst
 gitfirst:
@@ -54,4 +57,5 @@ all:
 	poetry install
 	make gitsetup
 	make gitfirst
+
 
