@@ -34,25 +34,21 @@ def print_futher_instuctions():
     #                   \ \/  \/ / /\ \ |  __  | |  | | |  | |                            #
     #                    \  /\  / ____ \| |  | | |__| | |__| |                            #
     #                     \/  \/_/    \_\_|  |_|\____/ \____/                             #
-    #                                                                                     #
-    #                                                                                     #
-    #    Your project {PROJECT_NAME} is created.                                          #
-    #    Create an empty repository at:                                                   #
-    #    git@github.com:{ORGANIZATION}/{PROJECT_NAME}.git                                 
-    #                                                                                     #
-    #    To install all packages, initializes git, add all files, and push,               #
-    #    just run:                                                                        #
-    #                                                                                     #
-    #                                                                                     #
-    #                                                                                     #
-    #                                                                                     #
-    #                                                                                     #
-                                  
-                                  cd {PROJECT_NAME}
-                                  git  init 
-                                  poetry install
-                                  make gitsetup
-                                  make gitfirst
+    #######################################################################################                                                                        
+    #                                                                                     
+    # Your project {PROJECT_NAME} is created.                                          
+    # Create an empty repository at:                                                   
+    # git@github.com:{ORGANIZATION}/{PROJECT_NAME}.git                                 
+    #                                                                                     
+    # To install all packages, initializes git, add all files, and push,               
+    # just run:                                                                        
+    #                                                                                     
+                      
+     cd {PROJECT_NAME}
+     git  init 
+     poetry install
+     make gitsetup
+     make gitfirst
     
 
     """
