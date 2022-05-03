@@ -3,6 +3,7 @@
 ## Guidelines
 Our Python coding guidelines are on [Confluence](https://wahooligans.atlassian.net/wiki/spaces/SCIENCE/pages/23586078720/Python+Coding+Guidelines).
 
+
 ## Installation requirements
 You need to
 ```shell
