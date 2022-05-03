@@ -34,7 +34,7 @@ tomlkit = { version = "^0.10", optional = true }
 # matplotlib = "^3.5.1"
 # numpy = "^1.22.3"
 # pandas = "^1.4.2"
-
+ipykernel = "^6.13.0"
 
 [tool.poetry.dev-dependencies]
 doc8 = "^0.11"
@@ -48,8 +48,6 @@ black = "^22.3.0"
 #importlib-metadata = "^4.11.3"
 #cffi = "^1.15.0"
 #pls = "^4.0.2"
-ipykernel = { version = "^6.13.0", optional = true }
 
 [tool.poetry.extras]
 docs = ["sphinx", "sphinx-autodoc-typehints", "m2r2", "tomlkit"]
-interactive = ["ipykernel"]
