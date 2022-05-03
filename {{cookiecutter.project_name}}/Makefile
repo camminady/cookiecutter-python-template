@@ -36,7 +36,7 @@ install:
 .PHONY: gitsetup
 gitsetup:
 	git init
-	git remote add origin git@github.com:{{ cookiecutter.organization }}/{{ cookiecutter.project_name.lower().replace('-', '_') }}.git
+	git remote add origin git@github.com:{{ cookiecutter.organization }}/{{ cookiecutter.project_name.lower()}}.git
 	git branch -M main
 
 .PHONY: gitfirst
