@@ -1,6 +1,7 @@
 # dspkg-cookiecutter-python-template
 [![Build Status](https://github.com/WahooFitness/dspkg-cookiecutter-python-template/workflows/test/badge.svg?branch=main&event=push)](https://github.com/WahooFitness/dspkg-cookiecutter-python-template/actions)
-
+## Guidelines
+Our Python coding guidelines are on [Confluence](https://wahooligans.atlassian.net/wiki/spaces/SCIENCE/pages/23586078720/Python+Coding+Guidelines).
 
 ## Install requirements
 You need to
