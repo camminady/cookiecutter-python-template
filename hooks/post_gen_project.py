@@ -26,23 +26,22 @@ def print_futher_instuctions():
     
                     
     
-    #######################################################################################
-    #                                                                                     #
-    #                 __          __     _    _  ____   ____                              #
-    #                 \ \        / /\   | |  | |/ __ \ / __ \                             #
-    #                  \ \  /\  / /  \  | |__| | |  | | |  | |                            #
-    #                   \ \/  \/ / /\ \ |  __  | |  | | |  | |                            #
-    #                    \  /\  / ____ \| |  | | |__| | |__| |                            #
-    #                     \/  \/_/    \_\_|  |_|\____/ \____/                             #
-    #######################################################################################                                                                        
+    ##############################################################################
+    #                                                                            #
+    #                 __          __     _    _  ____   ____                     #
+    #                 \ \        / /\   | |  | |/ __ \ / __ \                    #
+    #                  \ \  /\  / /  \  | |__| | |  | | |  | |                   #
+    #                   \ \/  \/ / /\ \ |  __  | |  | | |  | |                   #
+    #                    \  /\  / ____ \| |  | | |__| | |__| |                   #
+    #                     \/  \/_/    \_\_|  |_|\____/ \____/                    #
+    ##############################################################################                                                                                                                                                        
+    #
+    #   Your project {PROJECT_NAME} is created.                                          
+    #   Create an empty repository at:                                                   
+    #   git@github.com:{ORGANIZATION}/{PROJECT_NAME}.git                                 
     #                                                                                     
-    # Your project {PROJECT_NAME} is created.                                          
-    # Create an empty repository at:                                                   
-    # git@github.com:{ORGANIZATION}/{PROJECT_NAME}.git                                 
-    #                                                                                     
-    # To install all packages, initializes git, add all files, and push,               
-    # just run:                                                                        
-    #                                                                                     
+    #   To install all packages, initializes git, add all files, and push,               
+    #   just run:                                                                                                                                                          
                       
      cd {PROJECT_NAME}
      git  init 
