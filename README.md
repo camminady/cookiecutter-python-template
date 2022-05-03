@@ -24,5 +24,9 @@ If your environment needs to use packages like `numpy`, just run
 ```shell
 poetry add numpy
 ```
+
+## VS Code
+Inside a new repository, there is a `.vscode` folder with an `extensions.json` and a `settings.json` file. If you open VSCode and press `cmd+shift+p`, then type `Show recommended extensions` and hit enter, you can install those extensions that are listed in `extensions.json`. 
+
 ## Typing
 We are using `mypy` which enforces rather strict typing.
