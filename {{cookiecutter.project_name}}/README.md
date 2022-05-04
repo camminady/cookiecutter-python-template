@@ -21,6 +21,12 @@ With `fish`, run
 
 ```python
 from {{cookiecutter.project_name.lower().replace('-', '_')}}.Animal import Animal
+import logging
+
+# The user can subscribe to log messages of this package
+logger = logging.getLogger("{{cookiecutter.project_name.lower().replace('-', '_')}}")
+logger.addHandler(logging.StreamHandler())
+logger.setLevel(logging.WARNING)
 
 tiger = Animal("Tiger", "roooar")
 tiger.speak()
