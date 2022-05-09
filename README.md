@@ -18,7 +18,7 @@ Alternatively, use `pip3` instead of `pip`.
 ## Creating a new project
 Run
 ```shell
-cookiecutter https://github.com/WahooFitness/dspkg-cookiecutter-python-template
+cookiecutter git@github.com:WahooFitness/dspkg-cookiecutter-python-template
 ```
 You will then be asked to enter the package name and the organization under which the Github repository will live (`WahooFitness` is the default).
 ## Adding packages 
