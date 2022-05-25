@@ -1,4 +1,4 @@
-# dspkg-cookiecutter-python-template
+# cookiecutter-python-template
 
 
 ## Installation requirements
